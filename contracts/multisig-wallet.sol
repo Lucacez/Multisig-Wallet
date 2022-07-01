@@ -15,7 +15,7 @@ error NotApproved();
 error TxFailed();
 
 contract MultiSigWallet{
-    /* --------------------------------- Errors -------------------------------- */
+    /* --------------------------------- Events -------------------------------- */
     event Deposit(address indexed sender, uint amount);
     event Submit(uint indexed txId);
     event Approve(address indexed owner, uint indexed txId);
